@@ -1,0 +1,38 @@
+.Title {
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+    font-family: "Ubuntu Mono", monospace;
+    color: #98fc4c;
+}
+
+.Title h1:nth-of-type(1), h1:nth-of-type(2), h1:nth-of-type(3) {
+    font-size: 40px;
+}
+
+.Title h1:nth-of-type(4) {
+    font-size: 25px;
+}
+
+.Images {
+    position: absolute;
+    top:2vw;
+    right: 2vw;
+    display: flex;
+    align-items: flex-end;
+    gap: 1%
+}
+
+.Images img:nth-of-type(1) {
+    width: 2%;
+    height: auto;
+}
+
+.Images img:nth-of-type(2) {
+    width: 3.5%;
+    height: auto;
+}
+
+body {
+    background-color: #000000;
+}
